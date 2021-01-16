@@ -17,6 +17,8 @@ let getMarks = () => {
       : percentage.toFixed(1) + "%";
     let grade;
     let message = "Congratulations! you have passed.";
+    document.getElementById("pass").innerHTML = message;
+    document.getElementById("pass").style.color="green";
 
     if (
       percentage < 35 ||
@@ -27,7 +29,9 @@ let getMarks = () => {
     ) {
       message = "Sorry! you failed! please try next time.";
       grade = "F";
-      document.getElementById("percentage").innerHTML = null;
+      document.getElementById("percentage").innerHTML = "Not Available";
+       document.getElementById("pass").innerHTML = message;
+       document.getElementById("pass").style.color="red";
     } else if (percentage < 60) {
       grade = "B";
     } else if (percentage >= 60 && percentage < 70) {
@@ -38,7 +42,7 @@ let getMarks = () => {
       grade = "A+";
     }
     document.getElementById("grade").innerHTML = grade;
-    document.getElementById("pass").innerHTML = message;
+
   }
 };
 
