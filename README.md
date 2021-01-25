@@ -7,6 +7,6 @@
 ![screenshot of the app](https://raw.githubusercontent.com/praveenorugantitech/praveenorugantitech-javascript-projects/master/praveenorugantitech-grade-calculator/screenshot2.PNG "Grade Calculator")
 
 
-[Live Demo](https://praveenorugantitech.github.io/praveenorugantitech-javascript-projects/praveenorugantitech-grade-calculator/Demo)
+[Live Demo](http://praveenorugantitech.github.io/praveenorugantitech-grade-calculator-js/Demo/)
 
 
